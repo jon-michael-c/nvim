@@ -13,6 +13,9 @@ set signcolumn=yes
 set t_Co=256
 
 call plug#begin('~/.config/vim/plugged')
+"{{ The Basics }} 
+Plug 'ryanoasis/vim-devicons'    
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'scrooloose/NERDTree'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'gruvbox-community/gruvbox'
@@ -38,3 +41,9 @@ hi Normal guibg=NONE ctermbg=NONE
 let mapleader = " "
 nnoremap <leader>e :NERDTree
 nnoremap <leader>p
+
+
+let g:lightline = {
+      \ 'colorscheme': 'darkplus',
+      \ }
+
