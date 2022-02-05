@@ -29,11 +29,14 @@ Plug 'tpope/vim-surround'
 Plug 'ryanoasis/vim-devicons'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+"{{ Colorschemes }}
 Plug 'Mofiqul/vscode.nvim'
 Plug 'lunarvim/darkplus.nvim'
 
-call plug#end()
+Plug 'webdevel/tabulous'
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
+call plug#end()
 colorscheme darkplus
 highlight Normal ctermbg=0xfafafa
 hi Normal guibg=NONE ctermbg=NONE
