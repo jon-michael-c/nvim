@@ -19,22 +19,28 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'scrooloose/NERDTree'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'gruvbox-community/gruvbox'
+Plug 'tpope/vim-surround' 
+
+"{{Styling}}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
-Plug 'ap/vim-css-color' 
-Plug 'tpope/vim-surround' 
 Plug 'ryanoasis/vim-devicons'
+Plug 'ap/vim-css-color' 
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 "{{ Colorschemes }}
 Plug 'Mofiqul/vscode.nvim'
 Plug 'lunarvim/darkplus.nvim'
-
 Plug 'webdevel/tabulous'
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+
+"{{TabBar}}
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+
 
 call plug#end()
 colorscheme darkplus
